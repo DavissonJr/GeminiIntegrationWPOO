@@ -4,7 +4,7 @@ namespace ScreenSound.Alura.Modelos
 {
     public class Gemini
     {
-        private const string ApiKey = "AIzaSyBTWLSVtTrbIL2DRA5-XF6m-OyvN2cJ92s";
+        private const string ApiKey = "chave_aqui";
         private const string BaseUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=";
 
         public async Task<string> RespostaAPI(Banda banda)
